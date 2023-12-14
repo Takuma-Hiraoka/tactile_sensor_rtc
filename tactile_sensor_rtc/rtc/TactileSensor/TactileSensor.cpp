@@ -1,12 +1,13 @@
 #include "TactileSensor.h"
 
 TactileSensor::TactileSensor(RTC::Manager* manager):
-  RTC::DataFlowComponentBase(manager)
+  RTC::DataFlowComponentBase(manager),
+  m_tactileSensorArrayOut_("tactileSensorArrayOut", m_tactileSensorArray_)
 {
 }
 
 RTC::ReturnCode_t TactileSensor::onInitialize(){
-
+  addOutPort("estWrenchesOut", this->m_tactileSensorArrayOut_);
   return RTC::RTC_OK;
 }
 
