@@ -1,6 +1,6 @@
 <launch>
   <node pkg="tactile_sensor_rtc" name="TactileSensor" type="TactileSensorComp"
-        output="screen" args ='-o "corba.master_manager:localhost:2810" -o "corba.nameservers:localhost:15005" -o "naming.formats:%n.rtc" -o "exec_cxt.periodic.rate:10"' />
+        output="screen" args ='-o "corba.master_manager:localhost:2810" -o "corba.nameservers:localhost:15005" -o "naming.formats:%n.rtc" -o "exec_cxt.periodic.rate:10" -o "tactile_sensor_file:$(find choreonoid_tactile_sensor_plugin)/sample/sample.yaml"' />
   <rtactivate component="TactileSensor0.rtc" />
 
   <node name="rtmlaunch_tactile_sensor" pkg="openrtm_tools" type="rtmlaunch.py" args="$(find tactile_sensor_rtc)/launch/tactile_sensor.launch" output="screen"/>

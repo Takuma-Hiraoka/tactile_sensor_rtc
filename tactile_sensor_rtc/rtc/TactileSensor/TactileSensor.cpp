@@ -1,4 +1,5 @@
 #include "TactileSensor.h"
+#include <cnoid/YAMLReader>
 
 TactileSensor::TactileSensor(RTC::Manager* manager):
   RTC::DataFlowComponentBase(manager),
@@ -8,10 +9,60 @@ TactileSensor::TactileSensor(RTC::Manager* manager):
 
 RTC::ReturnCode_t TactileSensor::onInitialize(){
   addOutPort("estWrenchesOut", this->m_tactileSensorArrayOut_);
+
+  int shm_key = 6555;
+  this->t_shm = (struct tactile_shm *) set_shared_memory(shm_key, sizeof(struct tactile_shm));
+  if (t_shm == NULL) {
+    std::cerr << "\x1b[31m[" << this->m_profile.instance_name << "] " << "set_shared_memory failed" << "\x1b[39m" << std::endl;
+  }
+
+  // load tactile_sensor_file
+  {
+    std::string fileName;
+    if(this->getProperties().hasKey("tactile_sensor_file")) fileName = std::string(this->getProperties()["tactile_sensor_file"]);
+    else fileName = std::string(this->m_pManager->getConfig()["tactile_sensor_file"]); // 引数 -o で与えたプロパティを捕捉
+    std::cerr << "[" << this->m_profile.instance_name << "] tactile_sensor_file: " << fileName <<std::endl;
+    cnoid::YAMLReader reader;
+    cnoid::MappingPtr node;
+    try {
+      node = reader.loadDocument(fileName)->toMapping();
+    } catch(const cnoid::ValueNode::Exception& ex) {
+      std::cerr << "\x1b[31m[" << this->m_profile.instance_name << "] " << ex.message() << "\x1b[39m" << std::endl;
+      return RTC::RTC_ERROR;
+    }
+    // load
+    auto& tactileSensorList = *node->findListing("tactile_sensor");
+    if (!tactileSensorList.isValid()) {
+      std::cerr << "\x1b[31m[" << this->m_profile.instance_name << "] " << "cannot load config file" << "\x1b[39m" << std::endl;
+      return RTC::RTC_ERROR;
+    } else {
+      for (int i=0; i< tactileSensorList.size(); i++) {
+        cnoid::Mapping* info = tactileSensorList[i].toMapping();
+        std::string type;
+        info->extract("type", type);
+        if (type == "rectangle") {
+          int num_dir1 = info->extract("num_dir1")->toInt();
+          int num_dir2 = info->extract("num_dir2")->toInt();
+          this->num_sensor += num_dir1 * num_dir2;
+        }
+      }
+    }
+  }
+
   return RTC::RTC_OK;
 }
 
 RTC::ReturnCode_t TactileSensor::onExecute(RTC::UniqueId ec_id){
+  // write port
+  RTC::Time tm;
+  tm.sec = 0;
+  tm.nsec = 0;
+  m_tactileSensorArray_.tm = tm;
+  m_tactileSensorArray_.data.length(this->num_sensor*3); // xyz
+  for (int i=0; i < this->num_sensor*3; i++) {
+    m_tactileSensorArray_.data[i] = t_shm->contact_force[i/3][i%3];
+  }
+  this->m_tactileSensorArrayOut_.write();
   return RTC::RTC_OK;
 }
 

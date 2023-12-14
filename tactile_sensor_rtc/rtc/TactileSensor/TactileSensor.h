@@ -8,6 +8,8 @@
 #include <rtm/DataOutPort.h>
 #include <rtm/idl/BasicDataType.hh>
 
+#include "tactile_shm.h"
+
 class TactileSensor : public RTC::DataFlowComponentBase{
 protected:
   RTC::TimedDoubleSeq m_tactileSensorArray_;
@@ -18,6 +20,8 @@ public:
   virtual RTC::ReturnCode_t onExecute(RTC::UniqueId ec_id);
 
 private:
+  struct tactile_shm *t_shm;
+  int num_sensor = 0;
 };
 
 extern "C"

@@ -2,7 +2,6 @@ add_definitions(-Wno-deprecated)
 
 find_package(catkin REQUIRED COMPONENTS
   rtmbuild
-#  tactile_sensor_msgs
   )
 find_package(choreonoid REQUIRED)
 
@@ -21,6 +20,7 @@ endforeach(lib)
 
 rtmbuild_add_library(TactileSensor SHARED
   TactileSensor.cpp
+  tactile_shm.cpp
   )
 target_link_libraries(TactileSensor
   ${catkin_LIBRARIES}
