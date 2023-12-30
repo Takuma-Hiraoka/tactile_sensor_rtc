@@ -2,6 +2,8 @@
 #include <cnoid/YAMLReader>
 #include "visualization_msgs/MarkerArray.h"
 #include <geometry_msgs/Point.h>
+#include <geometry_msgs/TransformStamped.h>
+#include <tf2_ros/static_transform_broadcaster.h>
 
 TactileSensorROSBridge::TactileSensorROSBridge(RTC::Manager* manager):
   RTC::DataFlowComponentBase(manager),
@@ -18,6 +20,7 @@ RTC::ReturnCode_t TactileSensorROSBridge::onInitialize(){
   this->arrow.y = 0.01;
   this->arrow.z = 0.01;
 
+  static tf2_ros::StaticTransformBroadcaster static_broadcaster;
   // load tactile_sensor_file
   {
     std::string fileName;
@@ -48,8 +51,28 @@ RTC::ReturnCode_t TactileSensorROSBridge::onInitialize(){
         // translation
         auto translation_ = info->extract("translation");
         auto& translationTmp = *translation_->toListing();
-        sensor.translation = cnoid::Vector3(translationTmp[0].toDouble(), translationTmp[1].toDouble(), translationTmp[2].toDouble());
+        cnoid::Vector3 translation = cnoid::Vector3(translationTmp[0].toDouble(), translationTmp[1].toDouble(), translationTmp[2].toDouble());
+        sensor.translation = translation;
+        // rotation
+        auto rotation_ = info->extract("rotation");
+        auto& rotationTmp = *rotation_->toListing();
+        cnoid::Matrix3d rotation;
+        rotation << rotationTmp[0].toDouble(), rotationTmp[1].toDouble(), rotationTmp[2].toDouble(),
+                    rotationTmp[3].toDouble(), rotationTmp[4].toDouble(), rotationTmp[5].toDouble(),
+                    rotationTmp[6].toDouble(), rotationTmp[7].toDouble(), rotationTmp[8].toDouble();
+        Eigen::Quaterniond quat(rotation);
         this->tactileSensorList.push_back(sensor);
+        geometry_msgs::TransformStamped static_transformStamped;
+        static_transformStamped.header.frame_id = linkName;
+        static_transformStamped.child_frame_id = "tactile_sensor" + std::to_string(i);
+        static_transformStamped.transform.translation.x = translation[0];
+        static_transformStamped.transform.translation.y = translation[1];
+        static_transformStamped.transform.translation.z = translation[2];
+        static_transformStamped.transform.rotation.x = quat.x();
+        static_transformStamped.transform.rotation.y = quat.y();
+        static_transformStamped.transform.rotation.z = quat.z();
+        static_transformStamped.transform.rotation.w = quat.w();
+        static_broadcaster.sendTransform(static_transformStamped);
       }
     }
   }

@@ -6,7 +6,9 @@ set(CMAKE_BUILD_TYPE Release)
 add_definitions(-Wno-deprecated)
 
 find_package(catkin REQUIRED COMPONENTS
-  roscpp)
+  roscpp
+  tf2
+  tf2_ros)
 find_package(choreonoid REQUIRED)
 
 find_package(PkgConfig)
