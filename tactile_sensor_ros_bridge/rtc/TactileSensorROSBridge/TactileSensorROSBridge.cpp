@@ -45,28 +45,10 @@ RTC::ReturnCode_t TactileSensorROSBridge::onInitialize(){
         std::string linkName;
         info->extract("link", linkName);
         sensor.linkName = linkName;
-        // type
-        std::string type;
-        info->extract("type", type);
-        if (type == "rectangle") {
-          auto point_ = info->extract("point");
-          auto& pointTmp = *point_->toListing();
-          cnoid::Vector3 point = cnoid::Vector3(pointTmp[0].toDouble(), pointTmp[1].toDouble(), pointTmp[2].toDouble());
-          auto direction1_ = info->extract("direction1");
-          auto& direction1Tmp = *direction1_->toListing();
-          cnoid::Vector3 direction1 = cnoid::Vector3(direction1Tmp[0].toDouble(), direction1Tmp[1].toDouble(), direction1Tmp[2].toDouble());
-          auto direction2_ = info->extract("direction2");
-          auto& direction2Tmp = *direction2_->toListing();
-          cnoid::Vector3 direction2 = cnoid::Vector3(direction2Tmp[0].toDouble(), direction2Tmp[1].toDouble(), direction2Tmp[2].toDouble());
-          int num_dir1 = info->extract("num_dir1")->toInt();
-          int num_dir2 = info->extract("num_dir2")->toInt();
-          this->num_sensor += num_dir1 * num_dir2;
-          for (int j=0; j < num_dir1; j++) {
-            for (int k=0; k < num_dir2; k++) {
-              sensor.positions.push_back(point + direction1 * j / num_dir1 + direction2 * k / num_dir2);
-            }
-          }
-        }
+        // translation
+        auto translation_ = info->extract("translation");
+        auto& translationTmp = *translation_->toListing();
+        sensor.translation = cnoid::Vector3(translationTmp[0].toDouble(), translationTmp[1].toDouble(), translationTmp[2].toDouble());
         this->tactileSensorList.push_back(sensor);
       }
     }
@@ -80,45 +62,41 @@ RTC::ReturnCode_t TactileSensorROSBridge::onExecute(RTC::UniqueId ec_id){
 
   if(this->m_tactileSensorArrayIn_.isNew()){
     this->m_tactileSensorArrayIn_.read();
-    if(this->m_tactileSensorArray_.data.length() != this->num_sensor*3) {
-      std::cerr << "\x1b[31m[" << this->m_profile.instance_name << "] " << "data length is different" << "\x1b[39m" << std::endl;
+    if(this->m_tactileSensorArray_.data.length() != this->tactileSensorList.size()*3) {
+      std::cerr << "\x1b[31m[" << this->m_profile.instance_name << "] " << "data length is different. port data length : " << this->m_tactileSensorArray_.data.length() << " config file sensor length : " << this->tactileSensorList.size()*3 << "\x1b[39m" << std::endl;
       return RTC::RTC_ERROR;
     }
     visualization_msgs::MarkerArray marker_array;
-    marker_array.markers.resize(this->num_sensor);
-    int sensor_id = 0;
+    marker_array.markers.resize(this->tactileSensorList.size());
     for (int i=0; i < this->tactileSensorList.size(); i++) {
-      for (int j=0; j < this->tactileSensorList[i].positions.size(); j++) {
-        //marker array arrow
-        marker_array.markers[sensor_id].header.frame_id = "/map";//this->tactileSensorList[i].linkName;
-        marker_array.markers[sensor_id].header.stamp = ros::Time::now();
-        marker_array.markers[sensor_id].ns = "tactile_sensor_arrow";
-        marker_array.markers[sensor_id].id = sensor_id;
-        marker_array.markers[sensor_id].lifetime = ros::Duration();
-        marker_array.markers[sensor_id].type = visualization_msgs::Marker::ARROW;
-        marker_array.markers[sensor_id].action = visualization_msgs::Marker::ADD;
-        marker_array.markers[sensor_id].scale = this->arrow;
+      //marker array arrow
+      marker_array.markers[i].header.frame_id = "/map";//this->tactileSensorList[i].linkName;
+      marker_array.markers[i].header.stamp = ros::Time::now();
+      marker_array.markers[i].ns = "tactile_sensor_arrow";
+      marker_array.markers[i].id = i;
+      marker_array.markers[i].lifetime = ros::Duration();
+      marker_array.markers[i].type = visualization_msgs::Marker::ARROW;
+      marker_array.markers[i].action = visualization_msgs::Marker::ADD;
+      marker_array.markers[i].scale = this->arrow;
 
-        marker_array.markers[sensor_id].points.resize(2);
-        // start
-        geometry_msgs::Point v_start;
-        v_start.x = this->tactileSensorList[i].positions[j][0];
-        v_start.y = this->tactileSensorList[i].positions[j][1];
-        v_start.z = this->tactileSensorList[i].positions[j][2];
-        // end
-        geometry_msgs::Point v_end;
-        v_end.x = v_start.x + this->m_tactileSensorArray_.data[3*sensor_id + 0] * 100;
-        v_end.y = v_start.y + this->m_tactileSensorArray_.data[3*sensor_id + 1] * 100;
-        v_end.z = v_start.z + this->m_tactileSensorArray_.data[3*sensor_id + 2] * 100;
-        marker_array.markers[sensor_id].points[0] = v_start;
-        marker_array.markers[sensor_id].points[1] = v_end;
-        //color
-        marker_array.markers[sensor_id].color.r = 1.0f;
-        marker_array.markers[sensor_id].color.g = 0.0f;
-        marker_array.markers[sensor_id].color.b = 0.0f;
-        marker_array.markers[sensor_id].color.a = 1.0f;
-        sensor_id++;
-      }
+      marker_array.markers[i].points.resize(2);
+      // start
+      geometry_msgs::Point v_start;
+      v_start.x = this->tactileSensorList[i].translation[0];
+      v_start.y = this->tactileSensorList[i].translation[1];
+      v_start.z = this->tactileSensorList[i].translation[2];
+      // end
+      geometry_msgs::Point v_end;
+      v_end.x = v_start.x + this->m_tactileSensorArray_.data[3*i + 0] * 100;
+      v_end.y = v_start.y + this->m_tactileSensorArray_.data[3*i + 1] * 100;
+      v_end.z = v_start.z + this->m_tactileSensorArray_.data[3*i + 2] * 100;
+      marker_array.markers[i].points[0] = v_start;
+      marker_array.markers[i].points[1] = v_end;
+      //color
+      marker_array.markers[i].color.r = 1.0f;
+      marker_array.markers[i].color.g = 0.0f;
+      marker_array.markers[i].color.b = 0.0f;
+      marker_array.markers[i].color.a = 1.0f;
     }
     this->tactile_sensor_array_pub.publish(marker_array);
   }

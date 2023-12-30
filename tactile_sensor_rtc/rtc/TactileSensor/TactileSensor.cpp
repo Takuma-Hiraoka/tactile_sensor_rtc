@@ -36,16 +36,7 @@ RTC::ReturnCode_t TactileSensor::onInitialize(){
       std::cerr << "\x1b[31m[" << this->m_profile.instance_name << "] " << "cannot load config file" << "\x1b[39m" << std::endl;
       return RTC::RTC_ERROR;
     } else {
-      for (int i=0; i< tactileSensorList.size(); i++) {
-        cnoid::Mapping* info = tactileSensorList[i].toMapping();
-        std::string type;
-        info->extract("type", type);
-        if (type == "rectangle") {
-          int num_dir1 = info->extract("num_dir1")->toInt();
-          int num_dir2 = info->extract("num_dir2")->toInt();
-          this->num_sensor += num_dir1 * num_dir2;
-        }
-      }
+      this->num_sensor = tactileSensorList.size();
     }
   }
 

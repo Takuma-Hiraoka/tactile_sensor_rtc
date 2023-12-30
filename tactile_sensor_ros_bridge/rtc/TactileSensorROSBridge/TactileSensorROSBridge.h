@@ -22,14 +22,13 @@ public:
   {
   public:
     std::string linkName;
-    std::vector<cnoid::Vector3> positions; // リンク座標系でどこに取り付けられているか
+    cnoid::Vector3 translation; // リンク座標系でどこに取り付けられているか
   };
   TactileSensorROSBridge(RTC::Manager* manager);
   virtual RTC::ReturnCode_t onInitialize();
   virtual RTC::ReturnCode_t onExecute(RTC::UniqueId ec_id);
 
   std::vector<TactileSensor> tactileSensorList;
-  int num_sensor = 0;
   geometry_msgs::Vector3 arrow; // config arrow shape
 };
 
