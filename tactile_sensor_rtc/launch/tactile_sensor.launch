@@ -8,6 +8,9 @@
   <rtconnect from="TactileSensor0.rtc:tactileSensorArrayOut" to="TactileSensorROSBridge.rtc:tactileSensorArrayIn" />
   <rtactivate component="TactileSensorROSBridge.rtc" />
 
+  <node pkg="rviz" type="rviz" name="tactile_sensor_rviz"
+        args="-d $(find tactile_sensor_rtc)/launch/tactile_sensor_config.rviz"/>
+
   <node name="rtmlaunch_tactile_sensor" pkg="openrtm_tools" type="rtmlaunch.py" args="$(find tactile_sensor_rtc)/launch/tactile_sensor.launch" output="screen"/>
 
 </launch>

@@ -7,7 +7,7 @@
 #include <rtm/idl/BasicDataType.hh>
 
 #include <ros/ros.h>
-#include <geometry_msgs/Vector3.h>
+#include "geometry_msgs/WrenchStamped.h"
 #include <cnoid/EigenTypes>
 
 class TactileSensorROSBridge : public RTC::DataFlowComponentBase{
@@ -16,7 +16,7 @@ protected:
   RTC::TimedDoubleSeq m_tactileSensorArray_;
   RTC::InPort<RTC::TimedDoubleSeq> m_tactileSensorArrayIn_;
 
-  ros::Publisher tactile_sensor_array_pub;
+  std::vector<ros::Publisher> tactile_sensor_pub;
 public:
   class TactileSensor
   {
