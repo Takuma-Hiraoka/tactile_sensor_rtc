@@ -61,7 +61,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor0
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor0
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -75,7 +75,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor1
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor1
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -89,7 +89,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor2
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor2
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -103,7 +103,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor3
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor3
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -117,7 +117,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor4
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor4
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -131,7 +131,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor5
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor5
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -145,7 +145,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor6
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor6
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -159,7 +159,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor7
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor7
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -173,7 +173,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor8
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor8
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -187,7 +187,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor9
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor9
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -201,7 +201,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor10
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor10
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -215,7 +215,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor11
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor11
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -229,7 +229,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor12
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor12
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -243,7 +243,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor13
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor13
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -257,7 +257,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor14
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor14
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -271,7 +271,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor15
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor15
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -285,7 +285,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor16
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor16
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -299,7 +299,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor17
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor17
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -313,7 +313,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor18
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor18
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -327,7 +327,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor19
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor19
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -341,7 +341,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor20
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor20
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -355,7 +355,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor21
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor21
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -369,7 +369,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor22
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor22
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -383,7 +383,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor23
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor23
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -397,7 +397,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor24
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor24
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -411,7 +411,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor25
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor25
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -425,7 +425,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor26
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor26
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -439,7 +439,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor27
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor27
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -453,7 +453,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor28
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor28
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -467,7 +467,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor29
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor29
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -481,7 +481,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor30
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor30
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -495,7 +495,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor31
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor31
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -509,7 +509,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor32
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor32
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -523,7 +523,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor33
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor33
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -537,7 +537,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor34
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor34
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -551,7 +551,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor35
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor35
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -565,7 +565,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor36
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor36
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -579,7 +579,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor37
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor37
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -593,7 +593,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor38
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor38
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -607,7 +607,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor39
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor39
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -621,7 +621,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor40
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor40
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -635,7 +635,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor41
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor41
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -649,7 +649,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor42
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor42
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -663,7 +663,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor43
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor43
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -677,7 +677,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor44
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor44
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -691,7 +691,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor45
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor45
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -705,7 +705,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor46
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor46
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -719,7 +719,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor47
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor47
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -733,7 +733,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor48
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor48
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -747,7 +747,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor49
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor49
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -761,7 +761,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor50
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor50
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -775,7 +775,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor51
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor51
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -789,7 +789,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor52
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor52
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -803,7 +803,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor53
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor53
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -817,7 +817,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor54
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor54
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -831,7 +831,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor55
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor55
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -845,7 +845,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor56
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor56
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -859,7 +859,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor57
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor57
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -873,7 +873,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor58
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor58
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -887,7 +887,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor59
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor59
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -901,7 +901,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor60
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor60
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -915,7 +915,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor61
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor61
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -929,7 +929,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor62
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor62
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -943,7 +943,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor63
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor63
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -957,7 +957,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor64
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor64
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -971,7 +971,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor65
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor65
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -985,7 +985,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor66
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor66
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -999,7 +999,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor67
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor67
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1013,7 +1013,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor68
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor68
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1027,7 +1027,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor69
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor69
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1041,7 +1041,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor70
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor70
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1055,7 +1055,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor71
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor71
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1069,7 +1069,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor72
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor72
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1083,7 +1083,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor73
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor73
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1097,7 +1097,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor74
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor74
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1111,7 +1111,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor75
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor75
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1125,7 +1125,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor76
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor76
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1139,7 +1139,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor77
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor77
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1153,7 +1153,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor78
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor78
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1167,7 +1167,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor79
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor79
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1181,7 +1181,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor80
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor80
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1195,7 +1195,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor81
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor81
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1209,7 +1209,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor82
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor82
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1223,7 +1223,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor83
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor83
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1237,7 +1237,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor84
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor84
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1251,7 +1251,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor85
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor85
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1265,7 +1265,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor86
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor86
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1279,7 +1279,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor87
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor87
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1293,7 +1293,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor88
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor88
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1307,7 +1307,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor89
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor89
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1321,7 +1321,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor90
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor90
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1335,7 +1335,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor91
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor91
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1349,7 +1349,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor92
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor92
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1363,7 +1363,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor93
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor93
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1377,7 +1377,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor94
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor94
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1391,7 +1391,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor95
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor95
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1405,7 +1405,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor96
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor96
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1419,7 +1419,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor97
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor97
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1433,7 +1433,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor98
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor98
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1447,7 +1447,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor99
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor99
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1461,7 +1461,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor100
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor100
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1475,7 +1475,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor101
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor101
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1489,7 +1489,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor102
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor102
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1503,7 +1503,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor103
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor103
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1517,7 +1517,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor104
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor104
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1531,7 +1531,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor105
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor105
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1545,7 +1545,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor106
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor106
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1559,7 +1559,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor107
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor107
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1573,7 +1573,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor108
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor108
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1587,7 +1587,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor109
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor109
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1601,7 +1601,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor110
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor110
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1615,7 +1615,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor111
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor111
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1629,7 +1629,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor112
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor112
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1643,7 +1643,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor113
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor113
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1657,7 +1657,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor114
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor114
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1671,7 +1671,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor115
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor115
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1685,7 +1685,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor116
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor116
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1699,7 +1699,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor117
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor117
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1713,7 +1713,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor118
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor118
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1727,7 +1727,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor119
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor119
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1741,7 +1741,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor120
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor120
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1755,7 +1755,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor121
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor121
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1769,7 +1769,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor122
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor122
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1783,7 +1783,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor123
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor123
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1797,7 +1797,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor124
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor124
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1811,7 +1811,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor125
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor125
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1825,7 +1825,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor126
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor126
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1839,7 +1839,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor127
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor127
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1853,7 +1853,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor128
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor128
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1867,7 +1867,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor129
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor129
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1881,7 +1881,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor130
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor130
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1895,7 +1895,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor131
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor131
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1909,7 +1909,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor132
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor132
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1923,7 +1923,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor133
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor133
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1937,7 +1937,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor134
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor134
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1951,7 +1951,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor135
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor135
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1965,7 +1965,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor136
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor136
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1979,7 +1979,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor137
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor137
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -1993,7 +1993,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor138
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor138
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2007,7 +2007,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor139
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor139
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2021,7 +2021,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor140
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor140
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2035,7 +2035,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor141
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor141
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2049,7 +2049,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor142
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor142
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2063,7 +2063,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor143
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor143
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2077,7 +2077,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor144
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor144
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2091,7 +2091,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor145
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor145
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2105,7 +2105,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor146
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor146
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2119,7 +2119,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor147
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor147
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2133,7 +2133,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor148
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor148
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2147,7 +2147,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor149
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor149
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2161,7 +2161,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor150
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor150
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2175,7 +2175,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor151
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor151
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2189,7 +2189,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor152
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor152
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2203,7 +2203,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor153
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor153
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2217,7 +2217,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor154
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor154
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2231,7 +2231,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor155
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor155
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2245,7 +2245,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor156
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor156
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2259,7 +2259,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor157
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor157
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2273,7 +2273,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor158
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor158
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2287,7 +2287,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor159
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor159
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2301,7 +2301,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor160
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor160
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2315,7 +2315,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor161
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor161
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2329,7 +2329,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor162
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor162
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2343,7 +2343,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor163
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor163
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2357,7 +2357,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor164
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor164
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2371,7 +2371,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor165
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor165
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2385,7 +2385,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor166
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor166
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2399,7 +2399,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor167
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor167
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2413,7 +2413,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor168
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor168
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2427,7 +2427,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor169
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor169
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2441,7 +2441,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor170
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor170
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2455,7 +2455,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor171
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor171
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2469,7 +2469,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor172
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor172
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2483,7 +2483,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor173
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor173
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2497,7 +2497,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor174
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor174
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2511,7 +2511,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor175
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor175
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2525,7 +2525,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor176
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor176
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2539,7 +2539,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor177
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor177
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2553,7 +2553,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor178
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor178
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2567,7 +2567,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor179
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor179
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2581,7 +2581,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor180
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor180
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2595,7 +2595,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor181
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor181
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2609,7 +2609,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor182
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor182
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2623,7 +2623,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor183
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor183
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2637,7 +2637,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor184
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor184
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2651,7 +2651,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor185
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor185
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2665,7 +2665,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor186
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor186
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2679,7 +2679,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor187
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor187
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2693,7 +2693,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor188
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor188
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2707,7 +2707,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor189
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor189
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2721,7 +2721,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor190
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor190
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2735,7 +2735,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor191
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor191
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2749,7 +2749,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor192
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor192
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2763,7 +2763,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor193
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor193
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2777,7 +2777,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor194
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor194
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2791,7 +2791,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor195
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor195
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2805,7 +2805,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor196
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor196
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2819,7 +2819,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor197
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor197
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2833,7 +2833,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor198
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor198
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2847,7 +2847,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor199
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor199
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2861,7 +2861,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor200
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor200
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2875,7 +2875,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor201
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor201
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2889,7 +2889,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor202
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor202
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2903,7 +2903,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor203
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor203
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2917,7 +2917,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor204
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor204
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2931,7 +2931,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor205
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor205
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2945,7 +2945,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor206
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor206
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2959,7 +2959,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor207
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor207
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2973,7 +2973,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor208
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor208
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -2987,7 +2987,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor209
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor209
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3001,7 +3001,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor210
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor210
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3015,7 +3015,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor211
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor211
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3029,7 +3029,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor212
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor212
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3043,7 +3043,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor213
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor213
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3057,7 +3057,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor214
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor214
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3071,7 +3071,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor215
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor215
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3085,7 +3085,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor216
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor216
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3099,7 +3099,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor217
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor217
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3113,7 +3113,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor218
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor218
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3127,7 +3127,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor219
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor219
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3141,7 +3141,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor220
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor220
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3155,7 +3155,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor221
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor221
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3169,7 +3169,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor222
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor222
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3183,7 +3183,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor223
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor223
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3197,7 +3197,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor224
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor224
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3211,7 +3211,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor225
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor225
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3225,7 +3225,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor226
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor226
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3239,7 +3239,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor227
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor227
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3253,7 +3253,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor228
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor228
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3267,7 +3267,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor229
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor229
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3281,7 +3281,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor230
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor230
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3295,7 +3295,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor231
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor231
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3309,7 +3309,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor232
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor232
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3323,7 +3323,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor233
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor233
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3337,7 +3337,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor234
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor234
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3351,7 +3351,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor235
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor235
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3365,7 +3365,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor236
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor236
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3379,7 +3379,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor237
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor237
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3393,7 +3393,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor238
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor238
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3407,7 +3407,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor239
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor239
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3421,7 +3421,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor240
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor240
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3435,7 +3435,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor241
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor241
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3449,7 +3449,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor242
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor242
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3463,7 +3463,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor243
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor243
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3477,7 +3477,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor244
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor244
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3491,7 +3491,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor245
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor245
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3505,7 +3505,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor246
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor246
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3519,7 +3519,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor247
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor247
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3533,7 +3533,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor248
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor248
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3547,7 +3547,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor249
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor249
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3561,7 +3561,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor250
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor250
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3575,7 +3575,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor251
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor251
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3589,7 +3589,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor252
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor252
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3603,7 +3603,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor253
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor253
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3617,7 +3617,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor254
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor254
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3631,7 +3631,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor255
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor255
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3645,7 +3645,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor256
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor256
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3659,7 +3659,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor257
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor257
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3673,7 +3673,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor258
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor258
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3687,7 +3687,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor259
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor259
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3701,7 +3701,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor260
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor260
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3715,7 +3715,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor261
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor261
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3729,7 +3729,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor262
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor262
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3743,7 +3743,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor263
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor263
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3757,7 +3757,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor264
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor264
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3771,7 +3771,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor265
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor265
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3785,7 +3785,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor266
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor266
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3799,7 +3799,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor267
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor267
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3813,7 +3813,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor268
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor268
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3827,7 +3827,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor269
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor269
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3841,7 +3841,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor270
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor270
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3855,7 +3855,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor271
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor271
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3869,7 +3869,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor272
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor272
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3883,7 +3883,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor273
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor273
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3897,7 +3897,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor274
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor274
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3911,7 +3911,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor275
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor275
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3925,7 +3925,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor276
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor276
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3939,7 +3939,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor277
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor277
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3953,7 +3953,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor278
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor278
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3967,7 +3967,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor279
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor279
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3981,7 +3981,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor280
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor280
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -3995,7 +3995,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor281
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor281
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4009,7 +4009,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor282
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor282
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4023,7 +4023,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor283
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor283
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4037,7 +4037,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor284
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor284
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4051,7 +4051,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor285
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor285
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4065,7 +4065,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor286
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor286
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4079,7 +4079,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor287
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor287
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4093,7 +4093,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor288
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor288
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4107,7 +4107,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor289
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor289
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4121,7 +4121,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor290
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor290
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4135,7 +4135,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor291
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor291
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4149,7 +4149,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor292
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor292
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4163,7 +4163,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor293
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor293
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4177,7 +4177,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor294
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor294
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4191,7 +4191,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor295
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor295
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4205,7 +4205,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor296
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor296
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4219,7 +4219,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor297
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor297
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4233,7 +4233,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor298
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor298
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4247,7 +4247,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor299
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor299
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4261,7 +4261,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor300
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor300
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4275,7 +4275,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor301
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor301
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4289,7 +4289,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor302
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor302
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4303,7 +4303,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor303
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor303
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4317,7 +4317,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor304
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor304
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4331,7 +4331,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor305
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor305
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4345,7 +4345,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor306
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor306
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4359,7 +4359,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor307
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor307
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4373,7 +4373,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor308
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor308
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4387,7 +4387,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor309
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor309
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4401,7 +4401,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor310
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor310
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4415,7 +4415,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor311
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor311
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4429,7 +4429,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor312
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor312
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4443,7 +4443,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor313
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor313
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4457,7 +4457,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor314
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor314
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4471,7 +4471,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor315
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor315
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4485,7 +4485,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor316
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor316
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4499,7 +4499,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor317
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor317
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4513,7 +4513,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor318
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor318
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4527,7 +4527,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor319
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor319
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4541,7 +4541,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor320
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor320
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4555,7 +4555,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor321
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor321
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4569,7 +4569,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor322
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor322
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4583,7 +4583,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor323
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor323
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4597,7 +4597,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor324
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor324
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4611,7 +4611,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor325
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor325
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4625,7 +4625,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor326
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor326
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4639,7 +4639,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor327
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor327
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4653,7 +4653,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor328
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor328
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4667,7 +4667,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor329
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor329
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4681,7 +4681,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor330
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor330
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4695,7 +4695,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor331
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor331
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4709,7 +4709,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor332
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor332
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4723,7 +4723,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor333
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor333
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4737,7 +4737,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor334
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor334
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4751,7 +4751,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor335
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor335
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4765,7 +4765,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor336
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor336
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4779,7 +4779,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor337
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor337
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4793,7 +4793,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor338
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor338
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4807,7 +4807,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor339
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor339
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4821,7 +4821,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor340
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor340
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4835,7 +4835,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor341
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor341
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4849,7 +4849,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor342
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor342
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4863,7 +4863,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor343
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor343
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4877,7 +4877,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor344
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor344
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4891,7 +4891,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor345
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor345
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4905,7 +4905,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor346
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor346
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4919,7 +4919,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor347
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor347
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4933,7 +4933,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor348
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor348
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4947,7 +4947,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor349
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor349
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4961,7 +4961,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor350
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor350
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4975,7 +4975,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor351
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor351
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -4989,7 +4989,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor352
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor352
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5003,7 +5003,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor353
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor353
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5017,7 +5017,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor354
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor354
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5031,7 +5031,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor355
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor355
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5045,7 +5045,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor356
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor356
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5059,7 +5059,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor357
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor357
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5073,7 +5073,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor358
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor358
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5087,7 +5087,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor359
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor359
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5101,7 +5101,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor360
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor360
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5115,7 +5115,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor361
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor361
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5129,7 +5129,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor362
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor362
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5143,7 +5143,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor363
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor363
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5157,7 +5157,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor364
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor364
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5171,7 +5171,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor365
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor365
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5185,7 +5185,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor366
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor366
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5199,7 +5199,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor367
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor367
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5213,7 +5213,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor368
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor368
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5227,7 +5227,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor369
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor369
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5241,7 +5241,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor370
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor370
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5255,7 +5255,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor371
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor371
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5269,7 +5269,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor372
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor372
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5283,7 +5283,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor373
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor373
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5297,7 +5297,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor374
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor374
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5311,7 +5311,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor375
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor375
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5325,7 +5325,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor376
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor376
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5339,7 +5339,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor377
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor377
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5353,7 +5353,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor378
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor378
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5367,7 +5367,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor379
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor379
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5381,7 +5381,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor380
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor380
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5395,7 +5395,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor381
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor381
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5409,7 +5409,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor382
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor382
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5423,7 +5423,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor383
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor383
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5437,7 +5437,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor384
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor384
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5451,7 +5451,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor385
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor385
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5465,7 +5465,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor386
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor386
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5479,7 +5479,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor387
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor387
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5493,7 +5493,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor388
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor388
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5507,7 +5507,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor389
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor389
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5521,7 +5521,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor390
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor390
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5535,7 +5535,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor391
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor391
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5549,7 +5549,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor392
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor392
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5563,7 +5563,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor393
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor393
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5577,7 +5577,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor394
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor394
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5591,7 +5591,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor395
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor395
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5605,7 +5605,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor396
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor396
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5619,7 +5619,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor397
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor397
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5633,7 +5633,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor398
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor398
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5647,7 +5647,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor399
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor399
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5661,7 +5661,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor400
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor400
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5675,7 +5675,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor401
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor401
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5689,7 +5689,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor402
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor402
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5703,7 +5703,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor403
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor403
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5717,7 +5717,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor404
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor404
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5731,7 +5731,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor405
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor405
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5745,7 +5745,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor406
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor406
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5759,7 +5759,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor407
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor407
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5773,7 +5773,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor408
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor408
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5787,7 +5787,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor409
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor409
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5801,7 +5801,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor410
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor410
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5815,7 +5815,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor411
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor411
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5829,7 +5829,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor412
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor412
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5843,7 +5843,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor413
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor413
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5857,7 +5857,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor414
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor414
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5871,7 +5871,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor415
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor415
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5885,7 +5885,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor416
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor416
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5899,7 +5899,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor417
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor417
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5913,7 +5913,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor418
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor418
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5927,7 +5927,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor419
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor419
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5941,7 +5941,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor420
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor420
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5955,7 +5955,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor421
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor421
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5969,7 +5969,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor422
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor422
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5983,7 +5983,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor423
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor423
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -5997,7 +5997,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor424
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor424
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6011,7 +6011,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor425
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor425
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6025,7 +6025,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor426
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor426
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6039,7 +6039,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor427
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor427
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6053,7 +6053,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor428
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor428
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6067,7 +6067,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor429
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor429
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6081,7 +6081,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor430
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor430
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6095,7 +6095,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor431
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor431
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6109,7 +6109,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor432
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor432
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6123,7 +6123,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor433
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor433
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6137,7 +6137,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor434
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor434
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6151,7 +6151,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor435
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor435
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6165,7 +6165,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor436
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor436
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6179,7 +6179,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor437
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor437
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6193,7 +6193,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor438
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor438
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6207,7 +6207,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor439
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor439
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6221,7 +6221,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor440
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor440
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6235,7 +6235,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor441
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor441
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6249,7 +6249,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor442
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor442
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6263,7 +6263,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor443
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor443
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6277,7 +6277,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor444
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor444
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6291,7 +6291,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor445
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor445
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6305,7 +6305,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor446
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor446
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6319,7 +6319,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor447
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor447
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6333,7 +6333,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor448
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor448
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6347,7 +6347,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor449
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor449
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6361,7 +6361,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor450
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor450
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6375,7 +6375,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor451
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor451
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6389,7 +6389,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor452
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor452
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6403,7 +6403,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor453
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor453
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6417,7 +6417,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor454
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor454
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6431,7 +6431,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor455
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor455
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6445,7 +6445,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor456
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor456
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6459,7 +6459,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor457
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor457
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6473,7 +6473,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor458
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor458
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6487,7 +6487,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor459
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor459
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6501,7 +6501,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor460
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor460
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6515,7 +6515,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor461
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor461
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6529,7 +6529,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor462
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor462
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6543,7 +6543,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor463
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor463
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6557,7 +6557,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor464
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor464
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6571,7 +6571,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor465
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor465
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6585,7 +6585,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor466
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor466
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6599,7 +6599,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor467
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor467
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6613,7 +6613,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor468
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor468
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6627,7 +6627,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor469
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor469
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6641,7 +6641,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor470
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor470
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6655,7 +6655,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor471
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor471
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6669,7 +6669,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor472
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor472
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6683,7 +6683,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor473
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor473
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6697,7 +6697,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor474
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor474
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6711,7 +6711,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor475
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor475
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6725,7 +6725,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor476
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor476
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6739,7 +6739,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor477
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor477
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6753,7 +6753,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor478
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor478
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6767,7 +6767,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor479
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor479
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6781,7 +6781,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor480
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor480
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6795,7 +6795,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor481
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor481
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6809,7 +6809,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor482
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor482
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6823,7 +6823,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor483
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor483
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6837,7 +6837,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor484
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor484
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6851,7 +6851,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor485
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor485
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6865,7 +6865,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor486
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor486
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6879,7 +6879,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor487
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor487
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6893,7 +6893,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor488
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor488
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6907,7 +6907,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor489
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor489
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6921,7 +6921,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor490
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor490
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6935,7 +6935,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor491
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor491
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6949,7 +6949,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor492
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor492
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6963,7 +6963,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor493
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor493
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6977,7 +6977,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor494
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor494
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -6991,7 +6991,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor495
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor495
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -7005,7 +7005,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor496
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor496
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -7019,7 +7019,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor497
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor497
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -7033,7 +7033,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor498
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor498
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false
@@ -7047,7 +7047,7 @@ Visualization Manager:
       Hide Small Values: false
       History Length: 1
       Name: WrenchStamped
-      Topic: /tactile_sensor499
+      Topic: /tactile_sensor_wrench_converter/tactile_sensor499
       Torque Arrow Scale: 1
       Torque Color: 204; 204; 51
       Unreliable: false

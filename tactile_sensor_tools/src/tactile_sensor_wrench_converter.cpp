@@ -65,7 +65,7 @@ namespace tactile_sensor_wrench_converter {
 	    static_transformStamped.transform.rotation.z = quat.z();
 	    static_transformStamped.transform.rotation.w = quat.w();
 	    static_broadcaster.sendTransform(static_transformStamped);
-	    this->tactileSensorPub_[i] = nh.advertise<geometry_msgs::WrenchStamped>("tactile_sensor" + std::to_string(i), 10);
+	    this->tactileSensorPub_[i] = pnh.advertise<geometry_msgs::WrenchStamped>("tactile_sensor" + std::to_string(i), 10);
 	  }
 	}
       }
