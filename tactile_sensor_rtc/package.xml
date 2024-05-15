@@ -10,6 +10,6 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <depend>rtmbuild</depend>
+  <depend>rtmbuild2</depend>
 
 </package>
