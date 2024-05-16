@@ -11,9 +11,19 @@ RTC::ReturnCode_t TactileSensor::onInitialize(){
   addOutPort("estWrenchesOut", this->m_tactileSensorArrayOut_);
 
   int shm_key = 6555;
-  this->t_shm = (struct tactile_shm *) set_shared_memory(shm_key, sizeof(struct tactile_shm));
-  if (t_shm == NULL) {
-    std::cerr << "\x1b[31m[" << this->m_profile.instance_name << "] " << "set_shared_memory failed" << "\x1b[39m" << std::endl;
+  {
+    std::cerr << this->m_profile.instance_name << "] shmget " << shm_key << std::endl;
+    int shm_id = shmget(shm_key, sizeof(struct tactile_shm), 0666|IPC_CREAT);
+    if(shm_id == -1) {
+      std::cerr << "\x1b[31m[" << this->m_profile.instance_name << "] " << " shmget failed" << "\x1b[39m" << std::endl;
+      return RTC::RTC_ERROR;
+    }else{
+      this->t_shm = (struct tactile_shm *)shmat(shm_id, (void *)0, 0);
+      if(this->t_shm == (void*)-1) {
+        std::cerr << "\x1b[31m[" << this->m_profile.instance_name << "] " << " shmat failed" << "\x1b[39m" << std::endl;
+        return RTC::RTC_ERROR;
+      }
+    }
   }
 
   // load tactile_sensor_file
@@ -31,12 +41,12 @@ RTC::ReturnCode_t TactileSensor::onInitialize(){
       return RTC::RTC_ERROR;
     }
     // load
-    auto& tactileSensorList = *node->findListing("tactile_sensor");
-    if (!tactileSensorList.isValid()) {
+    cnoid::ListingPtr tactileSensorList = node->findListing("tactile_sensor");
+    if (!tactileSensorList->isValid()) {
       std::cerr << "\x1b[31m[" << this->m_profile.instance_name << "] " << "cannot load config file" << "\x1b[39m" << std::endl;
       return RTC::RTC_ERROR;
     } else {
-      this->num_sensor = tactileSensorList.size();
+      this->num_sensor = tactileSensorList->size();
     }
   }
 
@@ -45,13 +55,12 @@ RTC::ReturnCode_t TactileSensor::onInitialize(){
 
 RTC::ReturnCode_t TactileSensor::onExecute(RTC::UniqueId ec_id){
   // write port
-  RTC::Time tm;
-  tm.sec = 0;
-  tm.nsec = 0;
-  m_tactileSensorArray_.tm = tm;
-  m_tactileSensorArray_.data.length(this->num_sensor*3); // xyz
+  coil::TimeValue coiltm(coil::gettimeofday());
+  this->m_tactileSensorArray_.tm.sec  = coiltm.sec();
+  this->m_tactileSensorArray_.tm.nsec = coiltm.usec() * 1000;
+  this->m_tactileSensorArray_.data.length(this->num_sensor*3); // xyz
   for (int i=0; i < this->num_sensor*3; i++) {
-    m_tactileSensorArray_.data[i] = t_shm->contact_force[i/3][i%3];
+    this->m_tactileSensorArray_.data[i] = t_shm->contact_force[i/3][i%3];
   }
   this->m_tactileSensorArrayOut_.write();
   return RTC::RTC_OK;

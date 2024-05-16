@@ -3,13 +3,12 @@ project(tactile_sensor_rtc)
 
 add_compile_options(-std=c++14)
 set(CMAKE_BUILD_TYPE Release)
-cmake_policy(SET CMP0046 OLD)
 
 find_package(catkin REQUIRED COMPONENTS
-  rtmbuild
+  rtmbuild2
   )
 
-rtmbuild_init()
+rtmbuild2_init()
 
 catkin_package(
   )

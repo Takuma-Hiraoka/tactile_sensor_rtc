@@ -1,33 +1,36 @@
 add_definitions(-Wno-deprecated)
 
 find_package(catkin REQUIRED COMPONENTS
-  rtmbuild
   )
 find_package(choreonoid REQUIRED)
 
+find_package(PkgConfig)
+pkg_check_modules(openrtm_aist openrtm-aist REQUIRED)
+
 include_directories(
   ${catkin_INCLUDE_DIRS}
+  ${openrtm_aist_INCLUDE_DIRS}
   ${CHOREONOID_INCLUDE_DIRS}
   )
 
-# 相対パスを絶対パスに直す
-
-set(CHOREONOID_BODY_LIBRARIES_ABS)
-foreach(lib ${CHOREONOID_BODY_LIBRARIES})
-  find_library(${lib}_abs NAMES ${lib} PATHS ${CHOREONOID_LIBRARY_DIRS})
-  set(CHOREONOID_BODY_LIBRARIES_ABS ${CHOREONOID_BODY_LIBRARIES_ABS} ${${lib}_abs})
-endforeach(lib)
-
-rtmbuild_add_library(TactileSensor SHARED
-  TactileSensor.cpp
-  tactile_shm.cpp
-  )
+add_library(TactileSensor SHARED TactileSensor.cpp)
 target_link_libraries(TactileSensor
   ${catkin_LIBRARIES}
-  ${CHOREONOID_BODY_LIBRARIES_ABS}
+  ${openrtm_aist_LIBRARIES}
+  ${CHOREONOID_BODY_LIBRARIES}
   )
 set_target_properties(TactileSensor PROPERTIES PREFIX "") # libTactileSensor.so -> TactileSensor.so
-add_dependencies(TactileSensor RTMBUILD_${PROJECT_NAME}_genrpc) # wait for rtmbuild_genidl
+#add_dependencies(TactileSensor RTMBUILD_${PROJECT_NAME}_genrpc) # wait for rtmbuild_genidl
 
-rtmbuild_add_executable(TactileSensorComp TactileSensorComp.cpp)
+add_executable(TactileSensorComp TactileSensorComp.cpp)
 target_link_libraries(TactileSensorComp TactileSensor)
+
+install(TARGETS TactileSensor
+  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}
+)
+
+install(TARGETS TactileSensorComp
+  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)

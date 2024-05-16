@@ -1,0 +1,18 @@
+<launch>
+  <node pkg="tactile_sensor_rtc" name="TactileSensor" type="TactileSensorComp"
+        output="screen" args ='-o "corba.master_manager:localhost:2810" -o "corba.nameservers:localhost:15005" -o "naming.formats:%n.rtc" -o "exec_cxt.periodic.rate:100" -o "tactile_sensor_file:$(find choreonoid_tactile_sensor_plugin)/sample/sample_config.yaml"' />
+  <rtactivate component="TactileSensor0.rtc" />
+
+  <node pkg="tactile_sensor_ros_bridge" name="TactileSensorROSBridge" type="TactileSensorROSBridgeComp"
+        output="screen" args ='-o "corba.master_manager:localhost:2810" -o "corba.nameservers:localhost:15005" -o "naming.formats:%n.rtc" -o "exec_cxt.periodic.rate:100" -o "tactile_sensor_file:$(find choreonoid_tactile_sensor_plugin)/sample/sample_config.yaml"'>
+	<remap from="~output" to="tactile_sensor_array" />
+  </node>	
+  <rtconnect from="TactileSensor0.rtc:tactileSensorArrayOut" to="TactileSensorROSBridge.rtc:tactileSensorArrayIn" />
+  <rtactivate component="TactileSensorROSBridge.rtc" />
+
+  <node pkg="rviz" type="rviz" name="tactile_sensor_rviz"
+        args="-d $(find tactile_sensor_ros_bridge)/sample/tactile_sensor_config.rviz"/>
+
+  <node name="rtmlaunch_tactile_sensor" pkg="openrtm_tools" type="rtmlaunch.py" args="$(find tactile_sensor_ros_bridge)/sample/tactile_sensor.launch" output="screen"/>
+
+</launch>
