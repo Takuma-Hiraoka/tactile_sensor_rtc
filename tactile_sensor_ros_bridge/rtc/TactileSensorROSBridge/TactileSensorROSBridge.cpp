@@ -124,6 +124,7 @@ RTC::ReturnCode_t TactileSensorROSBridge::onExecute(RTC::UniqueId ec_id){
 
     if(this->m_tactileSensorArray_.data.length() == this->tactileSensorList_.size() * 3){
       for (int i=0; i<this->tactileSensorList_.size(); i++) {
+        this->marker_.markers[i].header.stamp = ros::Time(0);
         this->marker_.markers[i].points[1].x = this->m_tactileSensorArray_.data[i*3+0] * 0.002;
         this->marker_.markers[i].points[1].y = this->m_tactileSensorArray_.data[i*3+1] * 0.002;
         this->marker_.markers[i].points[1].z = this->m_tactileSensorArray_.data[i*3+2] * 0.002;
