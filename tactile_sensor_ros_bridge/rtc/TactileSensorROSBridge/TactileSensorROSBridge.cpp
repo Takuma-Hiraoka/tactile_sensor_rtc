@@ -36,6 +36,7 @@ RTC::ReturnCode_t TactileSensorROSBridge::onInitialize(){
     }
 
     this->marker_.markers.resize(tactileSensorList->size());
+    std::vector<geometry_msgs::TransformStamped> transforms;
     for (int i=0; i< tactileSensorList->size(); i++) {
       cnoid::Mapping* info = tactileSensorList->at(i)->toMapping();
       TactileSensor sensor;
@@ -74,10 +75,10 @@ RTC::ReturnCode_t TactileSensorROSBridge::onInitialize(){
       static_transformStamped.transform.rotation.y = quat.y();
       static_transformStamped.transform.rotation.z = quat.z();
       static_transformStamped.transform.rotation.w = quat.w();
-      this->static_broadcaster_.sendTransform(static_transformStamped);
+      transforms.push_back(static_transformStamped);
 
       this->marker_.markers[i].header.frame_id = sensor.name;
-      this->marker_.markers[i].header.stamp = ros::Time::now();
+      this->marker_.markers[i].header.stamp = ros::Time(0);
       if(ros::this_node::getNamespace() == ""){
         this->marker_.markers[i].ns = ros::this_node::getName();
       }else{
@@ -105,6 +106,8 @@ RTC::ReturnCode_t TactileSensorROSBridge::onInitialize(){
       this->marker_.markers[i].color.b = 0.0f;
       this->marker_.markers[i].color.a = 1.0f;
     }
+    // sendTransform(const geometry_msgs::TransformStamped &transform)を一つひとつ送ると時間がかかるので、sendTransform(const std::vector< geometry_msgs::TransformStamped > &transforms)でまとめて送る.
+    this->static_broadcaster_.sendTransform(transforms);
   }
 
   return RTC::RTC_OK;
