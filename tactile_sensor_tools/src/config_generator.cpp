@@ -24,7 +24,8 @@ int main(int argc, char *argv[]){
   opt.add_options()
     ("help,h", "read model file(.wrl) and write each tactile sensor configuration(.yaml). config_writer -i [file path] -o [file path]")
     ("input,i", boost::program_options::value<std::string>(),"input file path")
-    ("output,o", boost::program_options::value<std::string>(),"output file path");
+    ("output,o", boost::program_options::value<std::string>(),"output file path")
+    ("resolution,r", boost::program_options::value<float>()->default_value(0.01),"resolution");
   boost::program_options::variables_map argmap;
   boost::program_options::store(boost::program_options::parse_command_line(argc, argv, opt), argmap );
   boost::program_options::notify( argmap );
@@ -43,7 +44,7 @@ int main(int argc, char *argv[]){
     return 1;
   }
   std::string outputFilePath = argmap["output"].as<std::string>();
-  float resolution = 0.01;
+  float resolution = argmap["resolution"].as<float>();;
   if(!(resolution > 0.0)){
     std::cerr << "resolution <= 0.0" << std::endl;
     return 1;
