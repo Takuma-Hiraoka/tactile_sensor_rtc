@@ -164,6 +164,7 @@ int main(int argc, char *argv[]){
       cnoid::AngleAxisf R(sensors[i].R);
       writer.putScalar(R.axis()[0]); writer.putScalar(R.axis()[1]); writer.putScalar(R.axis()[2]); writer.putScalar(R.angle());
       writer.endListing();
+      writer.putKeyValue("radius",resolution);
     }
     writer.endListing();
     writer.endMapping();
