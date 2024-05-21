@@ -27,6 +27,11 @@ target_link_libraries(tactile_sensor_wrench_converter
   ${catkin_LIBRARIES}
   ${CHOREONOID_BODY_LIBRARIES})
 
+add_executable(tactile_sensor_visualizer src/tactile_sensor_visualizer.cpp)
+target_link_libraries(tactile_sensor_visualizer
+  ${catkin_LIBRARIES}
+  ${CHOREONOID_BODY_LIBRARIES})
+
 add_executable(config_generator src/config_generator.cpp)
 target_link_libraries(config_generator
   ${catkin_LIBRARIES}
