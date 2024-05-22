@@ -68,6 +68,7 @@ Visualization Manager:
       Enabled: true
       Force Arrow Scale: 0.0020000000949949026
       Force Color: 204; 51; 51
+      Hide Small Values: false
       History Length: 1
       Name: WrenchStampedArray
       Topic: /tactile_sensor_visualizer/wrench

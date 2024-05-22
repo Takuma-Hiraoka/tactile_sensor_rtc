@@ -54,6 +54,10 @@ WrenchStampedArrayDisplay::WrenchStampedArrayDisplay()
                                    "Number of prior measurements to display.",
                                    this, SLOT( updateHistoryLength() ));
 
+    hide_small_values_property_ =
+            new rviz::BoolProperty("Hide Small Values", true, "Hide small values",
+                                   this, SLOT( updateColorAndAlpha() ));
+
     history_length_property_->setMin( 1 );
     history_length_property_->setMax( 100000 );
 }
@@ -81,6 +85,7 @@ void WrenchStampedArrayDisplay::updateColorAndAlpha()
     float force_scale = force_scale_property_->getFloat();
     float torque_scale = torque_scale_property_->getFloat();
     float width = width_property_->getFloat();
+    bool hide_small_values = hide_small_values_property_->getBool();
     Ogre::ColourValue force_color = force_color_property_->getOgreColor();
     Ogre::ColourValue torque_color = torque_color_property_->getOgreColor();
 
@@ -88,10 +93,11 @@ void WrenchStampedArrayDisplay::updateColorAndAlpha()
     {
       for(size_t j = 0; j< visuals_[i]->second.size(); j++){
         (*visuals_[i]).second[j]->setForceColor( force_color.r, force_color.g, force_color.b, alpha );
-	(*visuals_[i]).second[j]->setTorqueColor( torque_color.r, torque_color.g, torque_color.b, alpha );
-	(*visuals_[i]).second[j]->setForceScale( force_scale );
+        (*visuals_[i]).second[j]->setTorqueColor( torque_color.r, torque_color.g, torque_color.b, alpha );
+        (*visuals_[i]).second[j]->setForceScale( force_scale );
         (*visuals_[i]).second[j]->setTorqueScale( torque_scale );
-	(*visuals_[i]).second[j]->setWidth( width );
+        (*visuals_[i]).second[j]->setWidth( width );
+        (*visuals_[i]).second[j]->setHideSmallValues( hide_small_values );
       }
     }
 }
