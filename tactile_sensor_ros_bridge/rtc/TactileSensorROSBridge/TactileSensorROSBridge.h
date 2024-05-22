@@ -9,7 +9,6 @@
 #include <ros/ros.h>
 #include <std_msgs/Float32MultiArray.h>
 #include <tf2_ros/static_transform_broadcaster.h>
-#include <visualization_msgs/MarkerArray.h>
 
 #include <cnoid/Body>
 
@@ -34,8 +33,6 @@ protected:
   RTC::InPort<RTC::TimedDoubleSeq> m_tactileSensorArrayIn_;
 
   ros::Publisher tactile_sensor_pub_;
-  visualization_msgs::MarkerArray marker_;
-  ros::Publisher marker_pub_;
 
   std::vector<TactileSensor> tactileSensorList_;
 

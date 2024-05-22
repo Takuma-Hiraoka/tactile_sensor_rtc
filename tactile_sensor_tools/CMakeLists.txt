@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   tf2
   tf2_ros
+  tactile_sensor_msgs
   )
 find_package(choreonoid REQUIRED)
 find_package(Boost REQUIRED COMPONENTS program_options)

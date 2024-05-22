@@ -1,0 +1,8 @@
+<library path="lib/libtactile_sensor_rviz_plugin">
+  <class name="tactile_sensor_rviz_plugin/WrenchStampedArray"
+         type="tactile_sensor_rviz_plugin::WrenchStampedArrayDisplay"
+         base_class_type="rviz::Display">
+    <description>
+    </description>
+  </class>
+</library>

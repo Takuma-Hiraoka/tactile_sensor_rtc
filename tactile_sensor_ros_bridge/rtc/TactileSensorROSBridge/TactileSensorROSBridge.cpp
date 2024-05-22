@@ -12,7 +12,6 @@ RTC::ReturnCode_t TactileSensorROSBridge::onInitialize(){
   ros::NodeHandle pnh("~");
 
   this->tactile_sensor_pub_ = pnh.advertise<std_msgs::Float32MultiArray>("output", 1);
-  this->marker_pub_ = pnh.advertise<visualization_msgs::MarkerArray>("marker", 1);
 
   // load tactile_sensor_file
   {
@@ -35,7 +34,6 @@ RTC::ReturnCode_t TactileSensorROSBridge::onInitialize(){
       return RTC::RTC_ERROR;
     }
 
-    this->marker_.markers.resize(tactileSensorList->size());
     std::vector<geometry_msgs::TransformStamped> transforms;
     for (int i=0; i< tactileSensorList->size(); i++) {
       cnoid::Mapping* info = tactileSensorList->at(i)->toMapping();
@@ -77,34 +75,6 @@ RTC::ReturnCode_t TactileSensorROSBridge::onInitialize(){
       static_transformStamped.transform.rotation.w = quat.w();
       transforms.push_back(static_transformStamped);
 
-      this->marker_.markers[i].header.frame_id = sensor.name;
-      this->marker_.markers[i].header.stamp = ros::Time(0);
-      if(ros::this_node::getNamespace() == ""){
-        this->marker_.markers[i].ns = ros::this_node::getName();
-      }else{
-        this->marker_.markers[i].ns = ros::this_node::getNamespace() + "/" + ros::this_node::getName();
-      }
-      this->marker_.markers[i].id = i;
-      this->marker_.markers[i].lifetime = ros::Duration();
-      this->marker_.markers[i].type = visualization_msgs::Marker::ARROW;
-      this->marker_.markers[i].action = visualization_msgs::Marker::ADD;
-      this->marker_.markers[i].pose.orientation.w = 1.0; // rvizにUninitialized quaternion, assuming identity ワーニングが出る
-      this->marker_.markers[i].scale.x = 0.002; //  shaft diameter, and scale.y is the head diameter.
-      this->marker_.markers[i].scale.y = 0.004; // head diameter
-      this->marker_.markers[i].scale.z = 0.0; // If scale.z is not zero, it specifies the head length.
-      //start end
-      this->marker_.markers[i].points.resize(2);
-      this->marker_.markers[i].points[0].x = 0;
-      this->marker_.markers[i].points[0].y = 0;
-      this->marker_.markers[i].points[0].z = 0;
-      this->marker_.markers[i].points[1].x = 0;
-      this->marker_.markers[i].points[1].y = 0;
-      this->marker_.markers[i].points[1].z = 0;
-      //color
-      this->marker_.markers[i].color.r = 0.0f;
-      this->marker_.markers[i].color.g = 1.0f;
-      this->marker_.markers[i].color.b = 0.0f;
-      this->marker_.markers[i].color.a = 1.0f;
     }
     // sendTransform(const geometry_msgs::TransformStamped &transform)を一つひとつ送ると時間がかかるので、sendTransform(const std::vector< geometry_msgs::TransformStamped > &transforms)でまとめて送る.
     this->static_broadcaster_.sendTransform(transforms);
@@ -125,15 +95,6 @@ RTC::ReturnCode_t TactileSensorROSBridge::onExecute(RTC::UniqueId ec_id){
     }
     this->tactile_sensor_pub_.publish(tactileSensorArray);
 
-    if(this->m_tactileSensorArray_.data.length() == this->tactileSensorList_.size() * 3){
-      for (int i=0; i<this->tactileSensorList_.size(); i++) {
-        this->marker_.markers[i].header.stamp = ros::Time(0);
-        this->marker_.markers[i].points[1].x = this->m_tactileSensorArray_.data[i*3+0] * 0.002;
-        this->marker_.markers[i].points[1].y = this->m_tactileSensorArray_.data[i*3+1] * 0.002;
-        this->marker_.markers[i].points[1].z = this->m_tactileSensorArray_.data[i*3+2] * 0.002;
-      }
-      this->marker_pub_.publish(this->marker_);
-    }
   }
   return RTC::RTC_OK;
 }
