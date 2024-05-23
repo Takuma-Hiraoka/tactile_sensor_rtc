@@ -178,6 +178,7 @@ void WrenchStampedArrayDisplay::processMessage( const tactile_sensor_msgs::Wrenc
     float force_scale = force_scale_property_->getFloat();
     float torque_scale = torque_scale_property_->getFloat();
     float width = width_property_->getFloat();
+    bool hide_small_values = hide_small_values_property_->getBool();
     Ogre::ColourValue force_color = force_color_property_->getOgreColor();
     Ogre::ColourValue torque_color = torque_color_property_->getOgreColor();
     visuals->second[idx]->setForceColor( force_color.r, force_color.g, force_color.b, alpha );
@@ -185,6 +186,7 @@ void WrenchStampedArrayDisplay::processMessage( const tactile_sensor_msgs::Wrenc
     visuals->second[idx]->setForceScale( force_scale );
     visuals->second[idx]->setTorqueScale( torque_scale );
     visuals->second[idx]->setWidth( width );
+    visuals->second[idx]->setHideSmallValues( hide_small_values );
     idx++;
   }
 
