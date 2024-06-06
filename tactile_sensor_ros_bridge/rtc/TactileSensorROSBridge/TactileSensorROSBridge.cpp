@@ -87,7 +87,7 @@ RTC::ReturnCode_t TactileSensorROSBridge::onExecute(RTC::UniqueId ec_id){
   ros::spinOnce();
 
   if(this->m_tactileSensorArrayIn_.isNew()){
-    this->m_tactileSensorArrayIn_.read();
+    while(this->m_tactileSensorArrayIn_.isNew()) this->m_tactileSensorArrayIn_.read();
     std_msgs::Float32MultiArray tactileSensorArray;
     tactileSensorArray.data.resize(this->m_tactileSensorArray_.data.length());
     for (int i=0; i<tactileSensorArray.data.size(); i++) {
