@@ -70,7 +70,7 @@ int main(int argc, char *argv[]){
     if(linkName == "") linkName = robot->link(i)->name();
 
     cnoid::SgMeshPtr mesh = meshExtractor.integrate(robot->link(i)->collisionShape());
-    if(!mesh) continue;
+    if(!mesh || (mesh->numTriangles() == 0)) continue;
     meshFilter.generateNormals(mesh,M_PI,true);
 
     std::vector<std::vector<std::vector<std::vector<TactileSensor> > > > bin;
