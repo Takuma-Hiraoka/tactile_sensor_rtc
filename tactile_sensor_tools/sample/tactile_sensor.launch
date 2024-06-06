@@ -1,0 +1,26 @@
+<launch>
+  <param name="robot_description" command="$(find xacro)/xacro.py $(find choreonoid)/share/model/SR1/SR1.urdf" />
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+
+  <node pkg="tactile_sensor_rtc" name="TactileSensor" type="TactileSensorComp"
+        output="screen" args ='-o "corba.master_manager:localhost:2810" -o "corba.nameservers:localhost:15005" -o "naming.formats:%n.rtc" -o "exec_cxt.periodic.rate:100" -o "tactile_sensor_file:$(find choreonoid_tactile_sensor_plugin)/sample/sample_config.yaml"' />
+  <rtactivate component="TactileSensor0.rtc" />
+
+  <node pkg="tactile_sensor_ros_bridge" name="TactileSensorROSBridge" type="TactileSensorROSBridgeComp"
+        output="screen" args ='-o "corba.master_manager:localhost:2810" -o "corba.nameservers:localhost:15005" -o "naming.formats:%n.rtc" -o "exec_cxt.periodic.rate:100" -o "tactile_sensor_file:$(find choreonoid_tactile_sensor_plugin)/sample/sample_config.yaml"'>
+  </node>
+  <rtconnect from="TactileSensor0.rtc:tactileSensorArrayOut" to="TactileSensorROSBridge.rtc:tactileSensorArrayIn" subscription_type="new" push_policy="new"/>
+  <rtactivate component="TactileSensorROSBridge.rtc" />
+
+  <node pkg="tactile_sensor_tools" type="tactile_sensor_visualizer" name="tactile_sensor_visualizer">
+    <param name="filename" value="$(find choreonoid_tactile_sensor_plugin)/sample/sample_config.yaml"/>
+    <remap from="~input" to="/TactileSensorROSBridge/output"/>
+  </node>
+
+  <node pkg="rviz" type="rviz" name="tactile_sensor_rviz"
+        args="-d $(find tactile_sensor_tools)/sample/tactile_sensor_config.rviz"/>
+
+  <node name="rtmlaunch_tactile_sensor" pkg="openrtm_tools" type="rtmlaunch.py" args="$(find tactile_sensor_tools)/sample/tactile_sensor.launch" output="screen"/>
+
+</launch>

@@ -12,5 +12,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <depend>roscpp</depend>
+  <depend>choreonoid</depend>
+  <depend>tactile_sensor_msgs</depend>
 
 </package>
