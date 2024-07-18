@@ -115,7 +115,7 @@ int main(int argc, char *argv[]){
             sensor.linkName = linkName;
             sensor.p = v;
             cnoid::Vector3f z_axis = normal;
-            cnoid::Vector3f x_axis = (z_axis==cnoid::Vector3f::UnitY()) ? cnoid::Vector3f::UnitZ() : cnoid::Vector3f::UnitY().cross(z_axis);
+            cnoid::Vector3f x_axis = (z_axis==cnoid::Vector3f::UnitY() || z_axis==-cnoid::Vector3f::UnitY()) ? cnoid::Vector3f::UnitZ() : cnoid::Vector3f::UnitY().cross(z_axis);
             cnoid::Vector3f y_axis = z_axis.cross(x_axis);
             sensor.R.col(0) = x_axis.normalized(); sensor.R.col(1) = y_axis.normalized(); sensor.R.col(2) = z_axis.normalized();
             bin[x][y][z].push_back(sensor);
